@@ -15,6 +15,7 @@ mavik="\033[36m"
 ############################
 
 
+
 clear
 echo -e "${f}\033[33m############################################################\e${f}"
 echo -e "\033[33m ${f} $mavi PEER HATASI FİX | LALILAX ${f}"
@@ -33,6 +34,8 @@ clear
 echo -e "\033[33m ${f} $mavi KONSOL BAŞLATILIYOR... ${f}"
 sleep 2
 clear
+systemctl restart seid
+celar
 journalctl -u seid -f
 
 
