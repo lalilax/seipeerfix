@@ -17,9 +17,13 @@ mavik="\033[36m"
 
 
 clear
-echo -e "${f}\033[33m############################################################\e${f}"
-echo -e "\033[33m ${f} $mavi PEER HATASI FİX | LALILAX ${f}"
-echo -e "\033[33m############################################################\e${f}"
+echo -e "${yesil}.__         .__  .__.__                   ${f}"
+echo -e "${yesil}|  | _____  |  | |__|  | _____  ___  ___  ${f}"
+echo -e "${yesil}|  | \__  \ |  | |  |  | \__  \ \  \/  /  ${f}"
+echo -e "${yesil}|  |__/ __ \|  |_|  |  |__/ __ \_>    <   ${f}"
+echo -e "${yesil}|____(____  /____/__|____(____  /__/\_ \  ${f}"
+echo -e "${yesil}          \/                  \/      \/  ${f}"
+echo -e "${yesil}         [SEI PEER FIX PACK]              ${f}"
 su root -c "echo -e '\e[1;31m'"
 read -p "NODE ADINIZI GIRIN : " nodeadi
 cd /root/.sei/config
