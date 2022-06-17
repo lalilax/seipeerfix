@@ -39,7 +39,7 @@ echo -e "\033[33m ${f} $mavi KONSOL BAŞLATILIYOR... ${f}"
 sleep 2
 clear
 systemctl restart seid
-celar
+clear
 journalctl -u seid -f
 
 
